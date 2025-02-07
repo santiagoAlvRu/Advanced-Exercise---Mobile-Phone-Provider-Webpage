@@ -1,0 +1,142 @@
+:root {
+    --lila: mediumorchid;
+    --black: black;
+    --whitesmoke: whitesmoke;
+    --limegreen: limegreen;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100px;
+    height: 70px;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    border-left: 5px solid var(--limegreen);
+    border-right: 5px solid var(--limegreen);
+    font-family: 'Fraunces';
+    background-color: var(--lila);
+}
+
+
+.leftnav {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight:bold;
+    color: var(--whitesmoke);
+    text-shadow: 2px 2px 2px var(--limegreen);
+}
+
+.leftcol {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.line {
+    margin: 4px;
+    height: 60px;
+    border-left: 3px solid darkgray;
+    
+}
+
+.rightcol {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.rightnav {
+    margin: 20px;
+    font-size: 1.3rem;
+    color: var(--whitesmoke);
+}
+
+.secondnav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--whitesmoke);
+}
+
+.second-nav {
+    text-decoration: none;
+    background-color: none;
+    border: none;
+    font-size: 1.2rem;
+    font-family: 'Fraunces';
+    color: black;
+    font-weight:bold;
+}
+
+.phoneimg {
+    object-fit: cover;
+    width: 100%;
+    height: fit-content;
+}
+
+.index2 {
+    text-decoration: none;
+    font-family: 'Fraunces';
+    font-weight: bold;
+    position: fixed;
+    right: 15px;
+    top: 150px;
+    background-color: darkgray;
+    border: 2px solid black;
+    box-shadow: 5px 5px 20px black;
+}
+
+/* HERE STARTS INDEX2 STYLING */
+
+.header {
+    font-family: 'Fraunces';
+color: var(--lila);
+text-align: center;
+margin: 50px;
+
+}
+
+.header > p {
+    color: black;
+}
+
+.img-index2 {
+display: flex;
+justify-content: space-around;
+}
+
+.img-index2 > * {
+    width: 300px;
+    height: 300px;
+}
+
+.endbuttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    background-color: var(--lila);
+    border: none;
+    color: var(--whitesmoke);
+    padding: 15px 32px;
+    font-family: 'Fraunces';
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
