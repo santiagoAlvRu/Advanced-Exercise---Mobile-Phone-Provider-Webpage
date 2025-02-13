@@ -103,7 +103,7 @@ img {
 /* HERE STARTS INDEX2 STYLING */
 
 .header {
-    font-family: 'Fraunces';
+font-family: 'Fraunces';
 color: var(--lila);
 text-align: center;
 margin: 50px;
